@@ -17,7 +17,7 @@ public class PostTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body(Matchers.containsString("some d1ata"))
+                .body(Matchers.containsString("some data"))
         ;
     }
 }
